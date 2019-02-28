@@ -31,3 +31,5 @@ class Game:
         # self.choice = choice
 
     #######Don't be an idiot! You need to call the methods, and it will be passed in () at that point! THINK BEFORE YOU LEAP!!!!!
+
+    # FIGURE OUT WHAT TEST ERRORS ARE!

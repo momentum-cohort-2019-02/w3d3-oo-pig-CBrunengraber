@@ -1,5 +1,6 @@
 import pytest
 
+
 from pig import Human, Computer_player, Game
 
 def test_human():
@@ -12,8 +13,8 @@ def test_computer_player():
 
 
 
-def test_game(self):
-    my_test_game = Game(Human, Computer_player) #this test should assert if this is true
+def test_game():
+    my_test_game = Game(Human, Computer_player) #this test should assert if this is true, but self not defined and i cant pass the test an argument above
     assert self.human == Human()
     assert self.computer_player == Computer_player()
 
