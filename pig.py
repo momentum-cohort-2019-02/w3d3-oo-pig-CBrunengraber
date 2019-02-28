@@ -4,7 +4,16 @@ class Human:
     """
     def __init__(self):
         self.score = 0
-        # self.turn = turn
-        # self.dice_roll = dice_roll
-        # self.choice = choice
+
 #take those to game
+
+class Game:
+    def __init__(self, turn, die_roll, choice):
+        self.turn = turn
+        self.dice_roll = die_roll
+        self.choice = choice
+
+
+class Computer_player:
+    def __init__(self):
+        self.score = 0
