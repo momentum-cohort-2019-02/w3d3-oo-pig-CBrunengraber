@@ -30,3 +30,4 @@ class Game:
         # self.dice_roll = die_roll
         # self.choice = choice
 
+    #######Don't be an idiot! You need to call the methods, and it will be passed in () at that point! THINK BEFORE YOU LEAP!!!!!
