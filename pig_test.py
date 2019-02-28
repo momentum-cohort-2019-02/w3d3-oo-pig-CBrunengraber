@@ -11,8 +11,13 @@ def test_computer_player():
     assert my_computer_player.score == 0    
 
 
-# first three are attributes, the bottom three are methods - need to go to game
+#  Recursion error
 def test_game():
-    assert new_game.turn == ""
-    assert new_game.die_roll == ""
-    assert new_game.choice == ""
+    my_test_game = test_game()
+    assert self.human == none()
+    assert self.computer_player == none()
+
+#three are methods - need to go to game
+    # assert new_game.turn = turn()
+    # assert new_game.die_roll = die_roll()
+    # assert new_game.choice = choice()
